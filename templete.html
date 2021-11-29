@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/fontawesome-free-6.0.0-beta3-web/css/all.css"> 
+  <link rel="stylesheet" href="css/all.css"> 
+ 
+<head>
+
+    <title> Meu Site</title>
+</head>
+ 
+<body>
+ 
+   <!-- Código começa aqui -->
+   <!-- NavBar se inicia aqui-->
+   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+        <img style="width: 40px;" src="https://cdn-icons.flaticon.com/png/512/2363/premium/2363876.png?token=exp=1637871880~hmac=e3c2ebfd42944ae2a24aafc0db7974b1">
+        
+        Governo Imperial
+    </a>
+    
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Imperio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Armas">Armas</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#hierarquia">hierarquia</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Estrela">Estrela da Morte</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- e Termina aqui -->
+  
+
+    <!-- Carrosel começa aqui  -->
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" ></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2" class="active" ></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="../img/vander.jpg" style="width: 100%;" alt="Alisti-se">
+          <div class="carousel-caption">
+            <h3>Destrua Seus inimigos</h3>
+            <p>Sob o comando de Palpatine (nomeado Imperador), a Velha República foi transformada em Império, um governo Justo e Bondoso que tenta garantir a ordem e a lealdade através da força.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../img/enlist.jpg" style="width: 100%;" alt="Alisti-se">
+          <div class="carousel-caption">
+            <h3>Fortaleça o Imperio</h3>
+            <p>Sob o comando de Palpatine (nomeado Imperador), a Velha República foi transformada em Império, um governo Justo e Bondoso que tenta garantir a ordem e a lealdade através da força.</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="../img/ba.jpg" style="width: 100%;" alt="Alisti-se">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
+    <!-- Carrosel se encerra aqui   -->
+    <!-- about se inicia aqui-->
+  <div class="container-fluid mt-5 mb-5" style="background-color: rgb(223, 226, 226); border: 1px solid black" id="about">
+    <div class="rows">
+        <div class="col-12 text-center">
+            <p class="displat-4">Imperio</p>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p">• Capital: Coruscant (posteriormente Byss)
+                • Duração: 19ABY-6DBY (O remanescente Imperial nunca chegou oficialmente à um fim, mas a Nova Republica toma Coruscant em 6DBY)
+                A República, que durou pelo menos 25,034 anos, terminou depois de um período de intensa agitação política e devastação subsequente das Guerras Clônicas. Após a morte do Conde Dooku acima de Coruscant, a morte do General Grievous em Utapau e, finalmente, o massacre dos líderes da Confederação de Sistemas Independentes sobre Mustafar, Chanceler Palpatine (então governando com poder quase absoluto), começou um expurgo da Ordem Jedi, e, em seguida, se proclamou imperador da galáxia e reorganizou a República Galáctica em “o primeiro Império Galáctico” sobre o capital galáctico, Coruscant, trazendo os Sith para o poder mais uma vez.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Modal começa aqui   -->
+    <div class="row">
+        <div class="col-12 text-center">
+
+        <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="Armas">
+  Click aqui
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Alisti-se no Imperio</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <img src="../img/imperio.jpg" style="width: 100%;" alt="">
+        O Imperio Precisa de você 
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" href="#Alisti" class="btn btn-primary" data-dismiss="modal">Alisti-se</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+        
+        
+        </div>
+    </div>
+
+
+
+  </div>
+  <!-- e Termina aqui -->
+  <!-- Card se inicia aqui-->
+  <div class="container-fluid mg-5">
+    <div class="row">
+        <div class="col-4">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="../img/atat.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">AT-AT</h4>
+                  <p class="card-text">Transporte Blindado para Todo Terreno, também denominado de maneira mais simples como AT-AT, foi um andador de combate portador de 4 "pernas" e que era utilizado pelo Império Galáctico</p>
+                  
+                </div>
+              </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="../img/stard.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title"> Destróier</h4>
+                  <p class="card-text">O Destróier Estelar classe Imperial, conhecido como Destróier Estelar Imperial, foi uma linha de naves capitais enormes da Frota Imperial.</p>
+            
+                </div>
+              </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="../img/atst.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">AT-ST</h4>
+                  <p class="card-text">O Transporte de Exploração para Todo Terreno (AT-ST), também conhecido como Transporte de Exploração, Andador de Exploração ou derrisivamente como andador galinha, foi um andador bípede usado pelas forças terrestres do Império Galáctico.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+  <!-- e Termina aqui -->
+
+  <!-- Collapse se aqui -->
+        <Div class="container-fluid bg-dark text-primary p-3 pl-5 pr-5" id="hierarquia">
+            <div class="row">
+                <div class="col-12 text-center display-4 mb-3">
+                    hierarquia Imperial
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="accordion">
+
+                        <div class="card">
+                          <div class="card-header">
+                            <a class="card-link text-dark" data-toggle="collapse" href="#collapseOne">
+                              imperador
+                            </a>
+                          </div>
+                          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                <img src="../img/Darth_Sidious.jpg" alt="">
+                                <p>Palpatine, também conhecido como Darth Sidious, foi o último Chanceler Supremo da República Galáctica e o primeiro Imperador do Império Galáctico. Ele foi um Lorde Sombrio de Sith que seguiu a Regra de Dois e foi considerado um dos mais poderosos Lorde Sith que já existiram. Palpatine conseguiu estabilizar seu Império com um plano-mestre minuncioso, que involveu as Guerras Clônicas, um conflito entre a Galáxia inteira, e custou bilhões de vidas para ser bem-sucedido. Palpatine liderou tanto a República Galáctica, quanto a Confederação de Sistemas Independentes, o que permitiu que ele prolongasse a guerra ao máximo para aumentar seus poderes executivos no Senado Galáctico.
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="card">
+                            <div class="card-header">
+                              <a class="collapsed card-link text-dark" data-toggle="collapse" href="#collapseTwo">
+                                Darth Vader
+                              </a>
+                            </div>
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                              <div class="card-body">
+                                <img src="../img/thumb-1920-73873.jpg" alt="">
+                                <p>Depois de se voltar para o lado sombrio da Força, ele ficou conhecido como Darth Vader—Lorde Sombrio dos Sith e aprendiz do Imperador Darth Sidious. Como um Lorde Sith, Vader se voltou contra seus antigos companheiros e perseguiu os sobreviventes Jedi da Ordem 66 que quase extinguiu a ordem.
+                              </div>
+                            </div>
+                          </div>
+                      
+                        <div class="card">
+                          <div class="card-header">
+                            <a class="collapsed card-link text-dark" data-toggle="collapse" href="#collapseThree">
+                              Governador
+                            </a>
+                          </div>
+                          <div id="collapseThree" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <img src="../img/tarkin.jpg" alt="">
+                                <p> Wilhuff Tarkin foi um Humano do sexo masculino que serviu ao Império Galáctico como Moff e Grão-Moff, sucessivamente. Ele atuou como governador da Orla Exterior e foi o responsável pela construção da primeira Estrela da Morte.
+                            </div>
+                          </div>
+                        </div>
+                      
+                      </div>
+                </div>
+
+            </div>
+        </Div>
+
+  <!-- e Termina aqui -->
+
+  <!-- area 1 começa aqui -->
+  <div class="containier-fluid">
+    <div class="row" style="height: 300px; background-color: rgb(71, 71, 77);" id="Estrela">
+        <div class="row">
+            <div class="col-8">
+                <div>
+                      <h4 class="display-4 text-lg-center text-white">Estrela da Morte</h4>
+                      <p class="text-white text-right p-md-2" >  Estrela da Morte é uma estação espacial bélica criada pelo Império Galáctico, é a Arma superma do Imperio.
+
+                         É uma gigantesca estação espacial esférica, com 120 km de diâmetro. Carrega milhares de soldados (stormtroopers), caças TIE e caças TIE avançados como o de Darth Vader, mas sua arma maior é o superlaser que possui um formato de uma gigantesca cratera, que causa a destruição total de planetas, como o planeta natal de Princesa Leia, Alderaan.</p>
+                  </div>
+            </div>
+                    <div class="col-4">
+                <img class="img-fluid p-md-2 mb-2" src="../img/giphy (1).gif" alt="Chania">
+              </div>
+        </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+  <!-- e Termina aqui -->
+
+  <!-- area 2 começa aqui -->
+  <div class="containier-fixed">
+
+<div class="row">
+    <div class="col-6">
+        <label >Nome</label>
+        <input type="text" class="form-control" placeholder="Nome">
+    </div>
+    <div class="col-6">
+        <label >Sobrenome</label>
+        <input type="text" class="form-control" placeholder="Sobrenome">
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="col-3">
+        <label >Documento</label>
+        <input type="text" class="form-control" placeholder="Documento">
+    </div>
+    <div class="col-5">
+        <label >Endereço</label>
+        <input type="text" class="form-control" placeholder="Endereço">
+    </div>
+    <div class="col-4">
+        <label >Número</label>
+        <input type="text" class="form-control" placeholder="Número">
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="col-5">
+        <label >Complemento</label>
+        <input type="text" class="form-control" placeholder="Complemento">
+    </div>
+    <div class="col-5">
+        <label >Bairro</label>
+        <input type="text" class="form-control" placeholder="Bairro">
+    </div>
+    <div class="col-2">
+        <label >Planeta</label>
+        <input type="text" class="form-control" placeholder="Setor">
+    </div>
+</div>
+
+<div class="row mt-2 justify-content-center" id="Alisti-se">
+    <button class="btn btn-primary">Salvar</button>
+    <button class="btn btn-danger">Cancelar</button>
+</div>  
+
+  <!-- e Termina aqui -->
+
+  <div class="row">
+    <div class="col-12 text-center">
+
+    <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2" >
+Mais informações
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal2">
+<div class="modal-dialog">
+<div class="modal-content">
+
+  <!-- Modal Header -->
+  <div class="modal-header">
+    <h4 class="modal-title">Caso tenha se alistado, Bem-vindo ao Exercito Imperial</h4>
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+  </div>
+
+  <!-- Modal body -->
+  <div class="modal-body">
+    <img src="../img/empire.gif" style="width: 100%;" alt="">
+    O Imperio Conta com você 
+    <p>Caso Tenha completado a Inscrição, e qualquer informação seja falsa ou que não tenha Intenção de Servir, será severamente Punido.
+        Uma Unidade Imperial esta se dirigindo ate seu endereço, caso resista será preso no ato por desacato.
+    </p>
+  </div>
+
+  <!-- Modal footer -->
+  <div class="modal-footer">
+    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+  </div>
+
+</div>
+</div>
+</div>
+    
+    
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+  <!-- Footer começa aqui  -->
+  <footer class="bg-dark text-light text-center p-3">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 text-left">
+                links mais acessados
+                <div class="d-flex flex-row bd-highlight mb-3">
+                  <a href="#" class="p-2 bd-highlight">Alisti-se</a>
+                  <a href="#" class="p-2 bd-highlight">Contribua</a>
+                    <a href="#" class="p-2 bd-highlight">Denuncias</a>
+                </div>
+                
+            </div>
+            <div class="col-6 text-left">
+                Redes Sociais
+                <div class="d-flex flex-row bd-highlight mb-3">
+                  <a href="#" class="p-2 bd-highlight"><i class="fa-brands fa-linkedin"></i> </a>
+                  <a href="#" class="p-2 bd-highlight"><i class="fa-brands fa-twitter"></i> </a>
+                  <a href="#" class="p-2 bd-highlight"><i class='fab fa-facebook'></i> </a>
+                </div>
+            </div>
+        </div>  
+        <div class="row">
+            <div class="col-12 text-center">
+                    Grandeporte@2021
+                </div>
+            </div> 
+    </div>   
+</footer>
+     <!--e termina aqui  -->
+
+ 
+   
+<!-- Código Termina aqui -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+ 
+</body>
+ 
+</html>
+
